@@ -1,11 +1,11 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { PromoSelection } from '../pages/PromoSelection';
 import { TenPercentPromo } from '../pages/TenPercentPromo';
 import { FifteenPercentPromo } from '../pages/FifteenPercentPromo';
 import { FortyPercentPromo } from '../pages/FortyPercentPromo';
 import { NotFoundPage } from '../pages/NotFoundPage';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
   path: '/',
   element: <PromoSelection/>,
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
   },
   {
     path: '*',
-    element: <NotFoundPage />,
+    element: <NotFoundPage/>,
   }
 ]);
 
