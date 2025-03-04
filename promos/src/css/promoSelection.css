@@ -1,4 +1,4 @@
-.container {
+.promo-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,14 +8,14 @@
     padding: 16px;
 }
 
-.title {
+.promo-title {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 24px;
     font-family: 'Roboto';
 }
 
-.button-container {
+.promo-button-container {
     width: 100%;
     max-width: 300px;
     display: flex;
@@ -24,7 +24,7 @@
     font-family: 'Roboto';
 }
 
-.btn {
+.promo-btn {
     width: 100%;
     padding: 12px;
     font-size: 1rem;
@@ -37,26 +37,26 @@
     transition: background-color 0.3s ease;
 }
 
-.btn-blue {
+.promo-btn-blue {
     background-color: #3b82f6;
 }
 
-.btn-blue:hover {
+.promo-btn-blue:hover {
     background-color: #2563eb;
 }
 
-.btn-green {
+.promo-btn-green {
     background-color: #10b981;
 }
 
-.btn-green:hover {
+.promo-btn-green:hover {
     background-color: #059669;
 }
 
-.btn-red {
+.promo-btn-red {
     background-color: #ef4444;
 }
 
-.btn-red:hover {
+.promo-btn-red:hover {
     background-color: #dc2626;
 }

@@ -1,0 +1,120 @@
+.fifteen-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    padding: 16px;
+    font-family: 'Roboto';
+}
+
+.fifteen-home-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #3b82f6;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.fifteen-home-button:hover {
+    background-color: #2563eb;
+}
+
+.fifteen-home-button:active {
+    transform: scale(0.95);
+}
+
+.fifteen-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-family: 'Roboto';
+}
+
+.fifteen-machine-list {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fifteen-machine-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fifteen-machine-name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.fifteen-counter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fifteen-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e5e7eb;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.fifteen-btn:active {
+    transform: scale(0.9);
+}
+
+.fifteen-minus {
+    background-color: #ef4444;
+    color: white;
+}
+
+.fifteen-minus:hover {
+    background-color: #dc2626;
+}
+
+.fifteen-plus {
+    background-color: #10b981;
+    color: white;
+}
+
+.fifteen-plus:hover {
+    background-color: #059669;
+}
+
+.fifteen-quantity {
+    font-size: 1rem;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+}
+
+.fifteen-total {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fifteen-total p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 4px 0;
+}

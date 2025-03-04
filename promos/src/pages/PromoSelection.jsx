@@ -6,16 +6,16 @@ export function PromoSelection() {
 
     return (
         <>
-            <div className="container">
-            <h1 className="title">Selecciona tu promoción</h1>
-            <div className="button-container">
-                <button onClick={() => navigate('/laundry/ten-percent-promo/')} className="btn btn-blue">
+            <div className="promo-container">
+            <h1 className="promo-title">Seleccione la promoción</h1>
+            <div className="promo-button-container">
+                <button onClick={() => navigate('/laundry/ten-percent-promo/')} className="promo-btn promo-btn-blue">
                     10% de descuento en maquinas
                 </button>
-                <button onClick={() => navigate('/laundry/fifteen-percent-promo/')} className="btn btn-green">
+                <button onClick={() => navigate('/laundry/fifteen-percent-promo/')} className="promo-btn promo-btn-green">
                     15% de descuento en maquinas
                 </button>
-                <button onClick={() => navigate('/laundry/forty-percent-promo/')} className="btn btn-red">
+                <button onClick={() => navigate('/laundry/forty-percent-promo/')} className="promo-btn promo-btn-red">
                     40% de descuento en secadora
                 </button>
             </div>
