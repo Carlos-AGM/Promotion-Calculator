@@ -64,7 +64,7 @@ export function TenPercentPromo() {
             <div className="ten-total">
                 <p>Total antes del descuento: <strong>${totalBeforeDiscount}</strong></p>
                 <p>Descuento (10%): <strong>-${discount.toFixed(2)}</strong></p>
-                <p>Total a pagar: <strong>${totalWithDiscount.toFixed(2)}</strong></p>
+                <p>Total a pagar: <strong>${Math.round(totalWithDiscount)}</strong></p>
             </div>
         </div>
     );
